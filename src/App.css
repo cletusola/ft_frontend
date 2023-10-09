@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.top-div{
+  width: 90%;
+  margin: auto;
+  padding: 8px;
+  height: 30px;
+  background-color:rgb(164, 164, 192) ;
+}
+
+.dashboard-h2{
+  float: left;
+  margin-top: -5px;
+}
+.dashboard-logout {
+  color: red;
+  font-weight: bold;
+  float: right;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.login-form{
+  width: 350px;
+  margin: auto;
+  padding: 8px;
+  background-color: rgb(55, 73, 97);
+  margin-top: 50px;
+  text-align: center;
+}
+.login-form input{
+  width: 90%;
+  padding: 4px;
+  margin: 3px;
+  text-align: center;
+
+}
+.login-form p{
+  color: white;
+  margin-top: -5px;
+}
+.login-form button {
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+  color:rgb(55, 73, 97) ;
+  border: transparent;
+  cursor: pointer;
+}
+.no-data{
+  color: red;
+}
+.user-div{
+  margin: 5px;
+  margin-top: 40px;
+  padding: 5px;
+  background-color:rgb(164, 164, 192);
+  width: 240px;
+}
+.user-div h4 {
+  font-size: 14px;
+}
+.register-form{
+  width: 350px;
+  margin: auto;
+  padding: 8px;
+  background-color: rgb(55, 73, 97);
+  margin-top: 50px;
+  text-align: center;
+}
+.register-form input{
+  width: 90%;
+  padding: 4px;
+  margin: 3px;
+  text-align: center;
+
+}
+.register-form p{
+  color: white;
+  margin-top: -5px;
+}
+.register-form button {
+  padding: 10px;
+  background-color: white;
+  font-weight: bold;
+  color:rgb(55, 73, 97) ;
+  border: transparent;
+  cursor: pointer;
+}
+.login-link{
+  color: blue;
+}
+.home-div{
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+  background-color:rgb(55, 73, 97) ;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+}
+.home-div button{
+  padding: 7px;
+  margin: 5px;
+  border: transparent;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.home-div button .login-link {
+  text-decoration: none;
+  font-weight: bold;
+}
+.home-div button .home-logout {
+  text-decoration: none;
+  font-weight: bold;
+  color: red;
+}
+
+
+
