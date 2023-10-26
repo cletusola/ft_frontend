@@ -93,6 +93,7 @@ const Dashboard = () => {
                     <p><b>Name</b>: {p.firstname}, {p.lastname}</p>
                     <p><b>Username</b>: {p.username}</p>
                     <p><b>Email</b>: {p.email}</p>
+                    <p><b>Free Trading Balance</b>: $100</p> 
 
                     {p.username == "admin" ? 
                     <div className="user-div">
