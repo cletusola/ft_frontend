@@ -37,7 +37,7 @@ const Register = () => {
 
     return (
         <form className='register-form' onSubmit={handleSubmit}>
-            <p>Register To Start Trading</p>
+            <p>Register And Get $100 Free To Start Trading</p>
             <input type='text' name='firstname' placeholder='Firstname' onChange={handleChange} /><br/>
             <input type='text' name='lastname' placeholder='Lastname' onChange={handleChange} /><br/>
             <input type='text' name='username' placeholder='Username' onChange={handleChange} /><br/>
